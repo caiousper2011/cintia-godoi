@@ -18,6 +18,12 @@ const config: Config = {
           '25': '#fcfaff',
         },
       },
+      padding: {
+        app: '10rem',
+      },
+      fontSize: {
+        '6.5xl': '4rem',
+      },
     },
   },
   plugins: [],

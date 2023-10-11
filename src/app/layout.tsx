@@ -1,9 +1,6 @@
+import { jakarta } from '@/utils/fonts'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import SideBar from '../components/Sidebar'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,11 +14,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="antialiased">
-      <body className={inter.className}>
-        <div className="grid min-h-screen grid-cols-app">
-          <SideBar />
-          <main className="px-8 pb-12 pt-8">{children}</main>
-        </div>
+      <body className={jakarta.className}>
+        <div className="min-h-screen">{children}</div>
       </body>
     </html>
   )
