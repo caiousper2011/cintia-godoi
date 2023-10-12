@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header
       className={clsx(
-        'md:px-app sticky left-0 top-0 flex w-full items-center justify-center gap-2 p-2 py-5 text-xl font-bold text-white md:justify-start',
+        'sticky left-0 top-0 z-20 flex w-full items-center justify-center gap-2 bg-white p-2 py-5 text-xl font-bold text-white md:justify-start md:px-app',
         poppins.className,
       )}
       tabIndex={0}
