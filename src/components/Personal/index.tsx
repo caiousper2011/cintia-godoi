@@ -4,19 +4,23 @@
 import { playfair } from '@/utils/fonts'
 import clsx from 'clsx'
 import Button from '../Button'
-import { MessagesSquare, Scale } from 'lucide-react'
+import { MessagesSquare, Scale, Linkedin, ArrowDownCircle } from 'lucide-react'
 
 const Personal: React.FC = () => {
   const handleOpenWhatsapp = () => {
-    window.open('https://wa.me/+5511952875150', '_blank')
+    window.open('https://wa.me/+5511940412023', '_blank')
+  }
+
+  const handleOpenLinkedin = () => {
+    window.open('https://www.linkedin.com/in/cintia-godoi-/', '_blank')
   }
 
   return (
-    <section className="relative flex max-w-screen-2xl items-center px-3 md:px-app">
-      <div className="z-10 flex flex-col items-start gap-16 py-20 md:py-32">
-        <div className="space-y-6">
+    <section className="relative flex max-w-screen-2xl items-center px-3  lg:px-app">
+      <div className="z-10 flex flex-col items-start gap-10 py-20 sm:py-32">
+        <div className="space-y-4">
           <div className="inline-flex items-center gap-3 rounded-full bg-sky-200 p-1 ">
-            <div className="rounded-full bg-sky-900 px-6 py-2 text-white md:py-1">
+            <div className="xs:py-2 rounded-full bg-sky-900 px-6 py-3 text-white md:py-1">
               Especialidades
             </div>
             <span className="mr-3 leading-4 text-sky-900">
@@ -25,28 +29,41 @@ const Personal: React.FC = () => {
           </div>
           <h2
             className={clsx(
-              'max-w-2xl text-6.5xl/tight text-sky-900',
+              'max-w-3xl text-4xl text-sky-900 md:text-6xl/tight',
               playfair.className,
             )}
           >
-            Soluções estratégicas para seus negócios
+            Abra sua empresa, diminua seus custos e aumente seus resultados
           </h2>
         </div>
-        <h3 className="max-w-xl text-2xl font-medium text-neutral-900 lg:text-neutral-500">
-          Nós estaremos com vocês para resolver os seus problemas empresarias e
-          preveni-los com os melhores serviços especializados para você.
+        <h3 className="max-w-3xl text-xl font-medium text-neutral-900 lg:text-neutral-500">
+          Seja bem-vindo ao nosso site, onde você descobrirá como abrir sua
+          empresa, reduzir custos e maximizar seus resultados. Explore
+          estratégias e soluções inovadoras que o ajudarão a alcançar o sucesso
+          empresarial que você merece.
+          <span className="mt-4 inline-flex items-center gap-2 font-semibold text-sky-950 ">
+            <ArrowDownCircle /> Clique no botão abaixo para entrar em contato.
+          </span>
         </h3>
-        <Button
-          className="w-full md:w-auto"
-          text="WhatsApp"
-          Icon={<MessagesSquare />}
-          onClick={handleOpenWhatsapp}
-        />
+        <div className="flex gap-2">
+          <Button
+            className="w-full md:w-auto"
+            text="WhatsApp"
+            Icon={<MessagesSquare />}
+            onClick={handleOpenWhatsapp}
+          />
+          <Button
+            className="w-full md:w-auto"
+            text="LinkedIn"
+            Icon={<Linkedin />}
+            onClick={handleOpenLinkedin}
+          />
+        </div>
         <p className="hidden text-xl text-neutral-500 md:inline-block">
           Atendimento exclusivo e imediato
         </p>
       </div>
-      <div className="absolute -right-14 bottom-14 flex justify-end opacity-30 md:justify-center lg:bottom-0 lg:opacity-100">
+      <div className="absolute -right-14 bottom-14 flex justify-end opacity-20 md:justify-center lg:bottom-0 lg:opacity-100">
         <div className="flex h-[50rem] w-[50rem] rotate-1 justify-center rounded-full bg-sky-50 p-2 ">
           <div className="h-[39em] w-[39em] rounded-full bg-sky-100"></div>
         </div>
