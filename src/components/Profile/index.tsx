@@ -16,7 +16,7 @@ const Profile = () => {
             <h4 className="text-3xl font-semibold tracking-widest text-sky-900">
               Cintia Godoi
             </h4>
-            <p className="text-justify text-xl text-neutral-700">
+            <p className="text-xl text-neutral-700">
               Meu nome é Cíntia, sou Advogada especializada em Direito
               Empresarial, abrangendo relações societárias e cntratuais. Minha
               jornada profissional é marcada por uma sólida experiência na área

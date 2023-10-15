@@ -37,10 +37,10 @@ const Personal: React.FC = () => {
           </h2>
         </div>
         <h3 className="max-w-3xl text-xl font-medium text-neutral-900 lg:text-neutral-500">
-          Seja bem-vindo ao nosso site, onde você descobrirá como abrir sua
-          empresa, reduzir custos e maximizar seus resultados. Explore
-          estratégias e soluções inovadoras que o ajudarão a alcançar o sucesso
-          empresarial que você merece.
+          Seja bem-vindo(a), aqui você descobrirá como abrir sua empresa,
+          reduzir custos e maximizar seus resultados. Explore estratégias e
+          soluções inovadoras que o ajudarão a alcançar o sucesso empresarial
+          que você merece.
           <span className="mt-4 inline-flex items-center gap-2 font-semibold text-sky-950 ">
             <ArrowDownCircle /> Clique no botão abaixo para entrar em contato.
           </span>
