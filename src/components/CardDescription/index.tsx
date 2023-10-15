@@ -1,12 +1,12 @@
 import { playfair } from '@/utils/fonts'
 import clsx from 'clsx'
 
-interface ButtonProps extends HTMLDivElement {
+interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
   title: string
   description: string
 }
 
-const CardDescription = ({ title, description, ...rest }: ButtonProps) => {
+const CardDescription = ({ title, description, ...rest }: CardProps) => {
   return (
     <div
       {...rest}
