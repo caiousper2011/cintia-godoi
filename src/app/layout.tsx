@@ -1,6 +1,7 @@
 import { jakarta } from '@/utils/fonts'
 import './globals.css'
 import type { Metadata } from 'next'
+import Head from 'next/head'
 
 export const metadata: Metadata = {
   title: 'Dra. Cintia Godoi | Direito Empresarial, Societário e Contratos',
@@ -29,6 +30,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="antialiased">
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <body className={jakarta.className}>
         <div className="min-h-screen overflow-x-clip">{children}</div>
       </body>

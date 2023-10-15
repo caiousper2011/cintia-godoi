@@ -16,29 +16,21 @@ const Profile = () => {
             <h4 className="text-3xl font-semibold tracking-widest text-sky-900">
               Cintia Godoi
             </h4>
-            <p className="text-lg text-neutral-700">
-              Meu nome é Cíntia, e sou uma Advogada especializada em Direito
-              Empresarial e Societário. Minha jornada profissional é marcada por
-              uma sólida experiência na área de societário, abrangendo desde a
-              constituição de empresas até a resolução de complexos conflitos
-              empresariais. Minha expertise inclui a análise detalhada de atos
-              societários, exclusão de sócios e destituição de administradores.
-              Além disso, sou especializada em cobranças judiciais e
-              extrajudiciais, abrangendo planos de recuperação, decretação de
-              falência, habilitação em falência, extensão da falência e todos os
-              processos correlacionados. Também tenho vasta experiência na
-              desconsideração da personalidade jurídica e responsabilização de
-              sócios e administradores. Uma das minhas principais habilidades é
-              a análise, elaboração e implementação de acordos de sócios, com
-              foco na limitação da concorrência e na prevenção de abusos
-              empresariais. Minha missão profissional é assegurar a conformidade
-              legal e o sucesso das empresas em todas as etapas de suas
-              operações. Neste momento, estou buscando uma nova oportunidade
-              para aplicar minha experiência e conhecimento. Se você está
-              procurando uma profissional comprometida, apaixonada por Direito
-              Empresarial e Societário, e que pode fazer a diferença em sua
-              equipe, estou à disposição para uma conversa. Vamos conectar e
-              explorar como posso contribuir para o sucesso do seu negócio!
+            <p className="text-justify text-xl text-neutral-700">
+              Meu nome é Cíntia, sou Advogada especializada em Direito
+              Empresarial, abrangendo relações societárias e cntratuais. Minha
+              jornada profissional é marcada por uma sólida experiência na área
+              de societário, desde a constituição de empresas até a resolução de
+              complexos conflitos empresariais. Minha expertise inclui a análise
+              detalhada de atos societários, exclusão de sócios, destituição de
+              administradores, Governança Corporativa e Planejamento
+              Patrimonial. Uma das minhas principais habilidades é a análise,
+              elaboração e implementação de acordos de sócios, com foco na
+              limitação da concorrência e na prevenção de abusos empresariais.
+              Minha missão profissional é assegurar a conformidade legal e o
+              sucesso das empresas em todas as etapas de suas operações. Será um
+              prazer atendê-lo (a), para que juntos, possamos previnir litígios
+              e gerir seus negócio estrategicamente.
             </p>
           </div>
         </div>
