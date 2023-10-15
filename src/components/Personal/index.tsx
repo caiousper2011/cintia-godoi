@@ -16,7 +16,7 @@ const Personal: React.FC = () => {
   }
 
   return (
-    <section className="relative flex max-w-screen-2xl items-center px-3  lg:px-app">
+    <section className="relative flex max-w-screen-2xl items-center px-3  xl:px-app">
       <div className="z-10 flex flex-col items-start gap-10 py-20 sm:py-32">
         <div className="space-y-4">
           <div className="inline-flex items-center gap-3 rounded-full bg-sky-200 p-1 ">
@@ -63,7 +63,7 @@ const Personal: React.FC = () => {
           Atendimento exclusivo e imediato
         </p>
       </div>
-      <div className="absolute -right-14 bottom-14 flex justify-end opacity-20 md:justify-center lg:bottom-0 lg:opacity-100">
+      <div className="absolute -right-24 bottom-14 flex justify-end opacity-20 md:-right-16 md:justify-center lg:bottom-0 lg:opacity-100 xl:-right-14">
         <div className="flex h-[50rem] w-[50rem] rotate-1 justify-center rounded-full bg-sky-50 p-2 ">
           <div className="h-[39em] w-[39em] rounded-full bg-sky-100"></div>
         </div>

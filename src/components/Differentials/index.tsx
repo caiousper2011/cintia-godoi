@@ -5,7 +5,7 @@ import CardDescription from '../CardDescription'
 const Differentials = () => {
   return (
     <div className="bg-sky-50">
-      <section className="grid max-w-screen-2xl grid-cols-1 items-center gap-8 px-3 py-20 sm:py-32 lg:grid-cols-3 lg:flex-row lg:px-app">
+      <section className="grid max-w-screen-2xl grid-cols-1 items-center gap-8 px-3 py-20 sm:py-32 lg:grid-cols-3 lg:flex-row xl:px-app">
         <div className="space-y-10">
           <h4
             className={clsx(
