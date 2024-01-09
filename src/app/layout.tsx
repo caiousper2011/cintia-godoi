@@ -37,7 +37,7 @@ export default function RootLayout({
       </Head>
       <body className={jakarta.className}>
         <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11468092198" />
-        <Script id="google-analytics">
+        <Script id="google-analytics-event">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -45,6 +45,11 @@ export default function RootLayout({
  
           gtag('config', 'AW-11468092198');
         `}
+        </Script>
+        <Script id="google-analytics">
+          {`
+            gtag('event', 'conversion', {'send_to': 'AW-11468092198/1GDGCNHb74YZEKbmtNwq'});
+          `}
         </Script>
         <div className="min-h-screen overflow-x-clip">{children}</div>
       </body>
