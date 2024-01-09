@@ -32,6 +32,16 @@ export default function RootLayout({
     <html lang="pt-BR" className="antialiased">
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11468092198">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11468092198');
+</script>
       </Head>
       <body className={jakarta.className}>
         <div className="min-h-screen overflow-x-clip">{children}</div>
