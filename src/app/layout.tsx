@@ -2,6 +2,7 @@ import { jakarta } from '@/utils/fonts'
 import './globals.css'
 import type { Metadata } from 'next'
 import Head from 'next/head'
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Dra. Cintia Godoi | Direito Empresarial, Societário e Contratos',
@@ -32,8 +33,19 @@ export default function RootLayout({
     <html lang="pt-BR" className="antialiased">
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
+ 
       </Head>
       <body className={jakarta.className}>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11468092198" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'AW-11468092198');
+        `}
+      </Script>
         <div className="min-h-screen overflow-x-clip">{children}</div>
       </body>
     </html>
